@@ -1,0 +1,62 @@
+*{
+	margin:0 ;
+	padding:0;
+}
+
+html{
+		background-color:white;
+}
+
+body{
+	max-width: 960px; /* chiều rộng tối đa là 960px */
+	margin:0 auto;
+	background-color : lightgray;
+}
+
+/* ---------------------- start header ---------------------- */
+#header{
+	width: 100%;
+	min-height: 250px;
+	background-color: lightpink;
+}
+
+#logo{
+	width: 20%;
+	height:100%;
+	min-height:250px;
+	/*background-color: red;*/
+	border:2px solid white;
+}
+
+#logo img{
+	max-width:100%;
+	display:block;
+
+}
+
+#search{
+	background-color: gray;
+	width:100%;
+	float:left;
+	
+}
+/*------------ end header -----------------------*/
+
+
+
+/*--------- start content -------------------*/
+#main-content{
+	max-width:100%;
+	min-height:500px;
+	background-color:lightblue;
+}
+
+/*------------  end content ------------------------*/
+
+/*------------- start footer ------------*/
+#footer{
+	max-width:100%;
+	min-height:120px;
+	background-color:gray;
+}
+/*------------- end footer -----------------*/
