@@ -1,0 +1,115 @@
+// --------- start article block ------------------ 
+	.article{
+		width:100%;
+		display:block;
+		margin:10px 0px;
+		overflow:hidden;
+		background-color: #E8B914;
+
+
+		.article-thumbnail{
+			width: 40%;
+			float:left;
+			img{
+				display:block;
+				padding-right:10px;
+				max-width:100%;
+				height: auto;
+			}
+		}
+
+
+		.article-content{
+			width: 56%;
+			display: block;
+			text-align: left;
+			float: left;
+			padding-left: 3%;
+
+			.article-title{
+				padding-bottom:10px;
+			}
+		}
+
+	}
+
+// ---------- ends article block ------------------
+
+
+// --------------- start menus ------------------
+#header-left{
+	#search{
+			width: 100%;
+			clear: both;
+			display: block;
+			overflow: hidden;
+			padding-bottom: 5px;
+
+		.search-input{
+			font-size: 18px;
+			width: 70%;
+			float:left;
+
+		}
+
+		.search-button{
+			width: 28%;
+			float: left;
+			font-size: 22px;
+			color: #333;
+			background-color: #E8B914;
+			opacity: 0.7;
+			border: none;
+		}
+	}//#search
+
+
+
+
+	width:80%;
+	display:block;
+	float:left;
+
+		#header-menu{
+			padding-top: 23px;
+			ul {
+				width:100%;
+				float:left;
+				li{
+					list-style-type: none;
+					float:left;
+					padding:5px 10px;
+					text-align: center;
+					a{
+					  background-color: yellow;
+					  padding:5px 5px;
+					  text-decoration:none;
+					  font-weight: bold;
+					  color:black;
+					}
+				}//li
+			}//ul
+
+
+		}
+}//header left 
+
+// --------------- end menu ---------------------
+
+
+// ------------- start footer ------------------
+	#footer{
+		max-width: 100%;
+		min-height: 120px;
+		background-color: transparent;
+
+		.footer-text{
+			color: black;
+			text-align: center;
+			background-color: #FEFE9A;
+			padding: 25px 0px;
+			border-radius: 15px;
+			font-family:consolas;
+		}
+	}
+//  -------------- end footer ------------------
