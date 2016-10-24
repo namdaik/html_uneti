@@ -1,0 +1,238 @@
+ css reset */
+
+*{
+	margin:0;
+	padding:0;
+	font-size:16px;
+}
+
+html{
+	background-image: url("../img/51676_one_piece_roronoa_zoro_roronoa_zoro.jpg");
+}
+
+
+/* body */
+#main{
+	max-width: 860px;
+	display:block;
+	margin: 0 auto; /* cân cái main này đều ở giữa */
+	min-height: 960px;
+
+}
+/* #header */
+#header{
+	width: 100%;
+	min-height: 250px;
+	background-color: black;
+	color: green;
+	font-family: Tahoma, Roboto, sans-serif ;
+	transition: 1s ease all;
+
+}
+
+#header:hover{
+	background-color: transparent;
+	color: green;
+	transition: 1s ease all;
+}
+
+
+
+#logo{
+	width: 30%;
+	float:left;
+	min-height: 250px;
+}
+
+#logo img{
+	max-width: 100%;
+	width: auto;
+	display: block;
+}
+
+#logo img:hover{
+	max-width: 140%;
+
+}
+
+#header-left{
+	width: 70%;
+	float:left;
+
+}
+
+#search{
+	width: 100%;
+	float:none;
+	margin-top: 45px;
+}
+
+#search .search-input{
+	width: 70%;
+	padding:10px 20px;
+	font-size:17px;
+	border:2px solid black;
+	float:left;
+	color: green;
+	font-weight: bold;
+	border-radius: 50px;
+}
+
+#search .search-submit{
+	width: 20%;
+	border: 2px solid black;
+	background-color: green;
+	border-radius: 5px;
+	padding: 10px 0px;
+	cursor: pointer;
+}
+
+#search .search-submit:hover{
+	background-color: lightgreen;
+
+}
+
+/*menus*/
+#menu{
+	margin-top: 44px;
+}
+
+#menu ul li{
+	list-style-type: none;
+	float:left;
+	color: green;
+	padding: 5px 10px;
+	background-color: green;
+	margin:0px 10px;
+}
+
+#menu ul li a{
+	color: white;
+	text-decoration: none;
+}
+
+/*end menus*/
+
+
+
+/*start article */
+
+/* 1 phát khai báo luôn cả class .article + .content  */
+.article,.content{
+	width: 100%;
+	margin: 20px 0px;
+	background-color: green;
+	color: black;
+	font-family: Consolas , sans-serif;
+	overflow: hidden;
+}
+
+.article .article-image{
+	width: 30%;
+	float:left;
+}
+
+.article .article-image img{
+	width: auto;
+	max-width: 100%;
+	display: block;
+}
+
+.article .article-section{
+	width:68%;
+	padding-left:10px;
+	float:left;
+	display:block;
+}
+
+	
+/*end article*/
+
+/*footer */
+	#footer{
+		width: 100%;
+		margin:40px 0px;
+		border-radius: 10px;
+		padding:50px 0px;
+		text-align: center;
+		font-size:20px;
+		font-family:Roboto, Tahoma;
+		background-color:black;
+		color: green;
+	}
+/*end footer */
+
+
+/*single article */
+
+/*  Trang đơn lẻ (single.html)  */
+
+/* sử dụng css để ghi đè class -> tận dụng những thuộc tính đã dc sử dụng từ trước, chỉ sửa 1 số thuộc tính cần thiết, tất nhiên là mỗi người 1 kiểu có ghi đè hay ko , tùy, css là ngôn ngữ của design :)) */
+	
+	#single-article .article-section{
+		width:90%;
+
+		/* căn giữa */
+		margin: 0 auto;
+		/* end căn giữa */
+		display: block;
+	}
+
+	#single-article .article-section .article-image{
+		width:100%;
+
+	}
+
+	#single-article .article-section .article-image img{
+		/* căn chỉnh ảnh ở giữa : */
+		margin-right: auto;
+		margin-left: auto;
+		/*end căn chỉnh ảnh ở giữa */
+
+		margin-bottom:20px;
+		margin-top:20px; 
+		display: block;
+	}
+
+	#single-article .article-section .article-title{
+		width: 100%;
+		text-align: center;
+		margin-bottom: 20px;
+	}
+
+	#single-article .article-section .article-content{
+		text-align: center;
+		width: 100%;
+		margin-top:20px;
+		margin-bottom: 20px;
+
+	}
+
+
+/*end single article */
+
+
+/* 	
+	==== bài tập tuần 4 ở đây :3 ===
+	     - design lại mấy cái form theo ý thích nhé, đừng để nó xấu như bây h là dc :)) 
+	        nếu bí thì  có thể xem qua 1 cái ảnh `web_uneti_tuan4_form.png` nhé !  
+
+    	 - làm form login 
+	
+*/
+
+/* start register form */
+
+	/*code goes here ! */
+
+/* end register form */
+
+
+/* start login form */
+
+	/*code goes here ! */
+
+/* end login form */
+
+
+/* ===    end bài tập tuần 4 	==== */
